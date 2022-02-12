@@ -18,6 +18,6 @@ repos:
     hooks:
       - id: pylint
         name: pylint
-        entry: pylint gfy --fail-under=9.5
+        entry: pylint myproject --fail-under=9.5
         language: system
         types: [python]

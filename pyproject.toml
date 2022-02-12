@@ -22,8 +22,8 @@ build-backend = "poetry.core.masonry.api"
 
 [tool.black]
 line-length = 90
-target-version = ['py38']
-include = 'gfy'
+target-version = ["py38"]
+include = "myproject"
 
 [tool.isort]
 profile = "black"
@@ -46,6 +46,3 @@ reports="no"
 
 [tool.pylint.FORMAT]
 max-line-length="90"
-
-[tool.pylint.BASIC]
-good-names = "df"
