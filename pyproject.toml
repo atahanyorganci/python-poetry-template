@@ -7,14 +7,14 @@ license = "BSD-3-Clause"
 repository = "https://github.com/atahanyorganci/python-poetry-template.git"
 
 [tool.poetry.dependencies]
-python = "^3.8"
+python = "^3.10"
 
 [tool.poetry.dev-dependencies]
-black = "^21.9b0"
-pylint = "^2.11.1"
-isort = "^5.9.3"
-pytest = "^6.2.5"
-pre-commit = "^2.15.0"
+black = "^22.6.0"
+pylint = "^2.14.5"
+isort = "^5.10.1"
+pytest = "^7.1.2"
+pre-commit = "^2.20.0"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
